@@ -1,0 +1,291 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+a.cbtn.cbtn1 {
+    color: #060606;
+    background: #FBBF3F;
+}
+
+a.cbtn.cbtn1:after{
+    position: absolute;
+    content: "";
+    height: 140%;
+    width: 140%;
+    background: #fff;
+    left: -160%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+a.cbtn.cbtn1:hover:after{
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    left: -20%;
+}
+
+
+a.cbtn.cbtn21 {
+    color: #060606;
+    background: #FBBF3F;
+    border-radius: 3px;
+}
+
+a.cbtn.cbtn21:after{
+    position: absolute;
+    content: "";
+    height: 140%;
+    width: 140%;
+    background: #fff;
+    left: -160%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;-webkit-transition: all .5s;-o-transition: all .5s;transition: all .5s;
+}
+a.cbtn.cbtn21:hover:after{
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    left: -20%;
+}
+
+a.cbtn.cbtn23 {
+    color: #060606;
+    background: #FBBF3F;
+    border-radius: 3px;
+}
+
+a.cbtn.cbtn23:after{
+    position: absolute;
+    content: "";
+    height: 140%;
+    width: 140%;
+    background: #060606;
+    left: -160%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;-webkit-transition: all .5s;-o-transition: all .5s;transition: all .5s;
+}
+a.cbtn.cbtn23:hover:after{
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    left: -20%;
+}
+a.cbtn.cbtn23:hover{
+    color: #fff;
+}
+
+
+
+a.cbtn.cbtn2__video1 {
+    color: #060606;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #FBBF3F;
+    padding-left: 60px
+}
+
+a.cbtn.cbtn2__video1:after{
+    position: absolute;
+    content: "";
+    height: 140%;
+    width: 140%;
+    background: #060606;
+    left: -160%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;-webkit-transition: all .5s;-o-transition: all .5s;transition: all .5s;
+}
+a.cbtn.cbtn2__video1:hover:after{
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    left: -20%;
+}
+a.cbtn.cbtn2__video1:hover{
+    color: #fff;
+    border-color: #060606;
+}
+
+a.cbtn.cbtn2__video1 i {
+    font-size: 26px;
+    position: absolute;
+    left: 25px;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    margin-top: -15px;
+    color: #FBBF3F;
+}
+
+
+a.cbtn.cbtn2 {
+    color: #fff;
+    background: #3F7BFB;
+}
+
+a.cbtn.cbtn2:hover {
+    color: #060606;
+    background: #FBBF3F;
+}
+
+
+a.cbtn.cbtn22 {
+    color: #fff;
+    background: #3F7BFB;
+    border-radius: 3px;
+}
+
+a.cbtn.cbtn22:hover {
+    color: #fff;
+    background: #FBBF3F;
+}
+
+
+a.cbtn {
+    color: #060606;
+    font-size: 15px;
+    background: inherit;
+    border-radius: inherit;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+
+.btn__group a {
+    margin-right: 15px;
+}
+
+.btn__group a:last-child {
+    margin-right: 0;
+}
+
+
+a.readmore__btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 400;
+    border: 1px solid #CDCDCD;
+    padding: 10px 25px;
+    border-radius: 30px;
+
+}
+
+a.readmore__btn:hover {
+    background: #FBBF3F;
+    color: #fff;
+    border-color: #FBBF3F;
+}
+
+
+a.cbtn4 {
+    color: #fff;
+    background: #060606;
+    text-transform: capitalize;
+}
+
+a.cbtn.cbtn4:after{
+    position: absolute;
+    content: "";
+    height: 140%;
+    width: 140%;
+    background: #fff;
+    left: -160%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;-webkit-transition: all .5s;-o-transition: all .5s;transition: all .5s;
+}
+a.cbtn.cbtn4:hover:after{
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    left: -20%;
+}
+a.cbtn.cbtn4:hover{
+    color:#060606;
+}
+
+
+
+a.share_btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    text-align: center !important;
+    border-radius: 50%;
+    color: #D9D9D9;
+    font-size: 16px;
+}
+
+a.share_btn:{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    text-align: center !important;
+    border-radius: 50%;
+    color: #D9D9D9;
+    font-size: 16px;
+}
+
+button.quote__btn {
+    background: #FBBF3F;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    color: #060606;
+    font-weight: 500;
+    border: 1px solid transparent;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+button.quote__btn:hover {
+    border-color: #060606;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background: transparent;
+}
+
+button.quote__btn2 {
+    background: #FBBF3F;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    color: #060606;
+    font-weight: 500;
+    border: 1px solid transparent;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+button.quote__btn2:hover {
+    border-color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background: #fff;
+}
+.download__btn__group a:hover {
+    background: #EEB53D;
+}

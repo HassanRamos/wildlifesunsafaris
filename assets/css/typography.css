@@ -1,0 +1,1825 @@
+/*--------------------------------------------------------------------------------------
+    TABLE OF CONTENT
+----------------------------------------------------------------------------------------
+========================================================================================
+    1. TEXT TYPOGRAPHY CSS
+    2. MARGIN CSS
+    3. PADDING CSS
+    4. BACKGROUND CSS
+    5. COLOR CSS
+    6. BORDER CSS
+    7. SHADOW CSS
+    8. BEFORE AFTER CSS
+    9. COMMON CSS
+    10. SPACE CSS
+----------------------------------------------------------------------------------------*/
+
+/*--------------------------
+    1. TEXT TYPOGRAPHY CSS
+-----------------------------*/
+
+/*Define main font on google font*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&amp;display=swap');
+
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+a {
+    color: #3e425c;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    color: #FBBF3F;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body,
+html {
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+    padding:0;
+}
+
+.tuc{
+    text-transform: uppercase;
+}
+.tct{
+    text-transform: capitalize;
+}
+
+.font_light{
+    font-weight: 300;
+}
+.font_bold{
+    font-weight: 700
+}
+.font_regular{
+    font-weight: 400;
+}
+.font_thin{
+    font-weight: 100;
+}
+.b{
+    font-weight: 700;
+}
+h1{
+    font-size: 54px;
+    line-height: 62px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 67px;
+    color: #fff;
+}
+
+h3{
+    font-size: 23px;
+    color: #fff;
+}
+
+h4{
+    font-size: 18px;
+    color: #fff;
+}
+
+h5{
+   font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+h6{
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+/*----------------------
+    ALIGN
+-----------------------*/
+
+.center,
+.left,
+.right {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+/*-----------------------
+    FONTS
+------------------------*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.font38 {
+    font-size: 38px;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font42 {
+    font-size: 42px;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font50 {
+    font-size: 50px;
+}
+
+.font52 {
+    font-size: 52px;
+}
+
+.font60 {
+    font-size: 60px;
+}
+
+.font80 {
+    font-size: 80px;
+}
+
+.font120 {
+    font-size: 120px;
+}
+
+.font140 {
+    font-size: 140px;
+}
+
+/*------------------------------
+    RESPONSIVE
+-------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .lg-center {
+        text-align: center;
+    }
+
+    .lg-left {
+        text-align: left;
+    }
+
+    .lg-right {
+        text-align: right;
+    }
+
+    .lg-font12 {
+        font-size: 12px;
+    }
+
+    .lg-font14 {
+        font-size: 14px;
+    }
+
+    .lg-font16 {
+        font-size: 16px;
+    }
+
+    .lg-font18 {
+        font-size: 18px;
+    }
+
+    .lg-font20 {
+        font-size: 20px;
+    }
+
+    .lg-font22 {
+        font-size: 22px;
+    }
+
+    .lg-font24 {
+        font-size: 24px;
+    }
+
+    .lg-font26 {
+        font-size: 26px;
+    }
+
+    .lg-font28 {
+        font-size: 28px;
+    }
+
+    .lg-font32 {
+        font-size: 32px;
+    }
+
+    .lg-font30 {
+        font-size: 30px;
+    }
+
+    .lg-font36 {
+        font-size: 36px;
+    }
+
+    .lg-font38 {
+        font-size: 38px;
+    }
+
+    .lg-font48 {
+        font-size: 48px;
+    }
+
+    .lg-font42 {
+        font-size: 42px;
+    }
+
+    .lg-font48 {
+        font-size: 48px;
+    }
+
+    .lg-font50 {
+        font-size: 50px;
+    }
+
+    .lg-font52 {
+        font-size: 52px;
+    }
+
+    .lg-font60 {
+        font-size: 60px;
+    }
+
+    .lg-font80 {
+        font-size: 80px;
+    }
+
+    .lg-font120 {
+        font-size: 120px;
+    }
+
+    .lg-font140 {
+        font-size: 140px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .md-center {
+        text-align: center;
+    }
+
+    .md-left {
+        text-align: left;
+    }
+
+    .md-right {
+        text-align: right;
+    }
+
+    .md-font12 {
+        font-size: 12px;
+    }
+
+    .md-font14 {
+        font-size: 14px;
+    }
+
+    .md-font16 {
+        font-size: 16px;
+    }
+
+    .md-font18 {
+        font-size: 18px;
+    }
+
+    .md-font20 {
+        font-size: 20px;
+    }
+
+    .md-font22 {
+        font-size: 22px;
+    }
+
+    .md-font24 {
+        font-size: 24px;
+    }
+
+    .md-font26 {
+        font-size: 26px;
+    }
+
+    .md-font28 {
+        font-size: 28px;
+    }
+
+    .md-font32 {
+        font-size: 32px;
+    }
+
+    .md-font30 {
+        font-size: 30px;
+    }
+
+    .md-font36 {
+        font-size: 36px;
+    }
+
+    .md-font38 {
+        font-size: 38px;
+    }
+
+    .md-font48 {
+        font-size: 48px;
+    }
+
+    .md-font42 {
+        font-size: 42px;
+    }
+
+    .md-font48 {
+        font-size: 48px;
+    }
+
+    .md-font50 {
+        font-size: 50px;
+    }
+
+    .md-font52 {
+        font-size: 52px;
+    }
+
+    .md-font60 {
+        font-size: 60px;
+    }
+
+    .md-font80 {
+        font-size: 80px;
+    }
+
+    .md-font120 {
+        font-size: 120px;
+    }
+
+    .md-font140 {
+        font-size: 140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sm-center {
+        text-align: center;
+    }
+
+    .sm-left {
+        text-align: left;
+    }
+
+    .sm-right {
+        text-align: right;
+    }
+
+    .sm-font12 {
+        font-size: 12px;
+    }
+
+    .sm-font14 {
+        font-size: 14px;
+    }
+
+    .sm-font16 {
+        font-size: 16px;
+    }
+
+    .sm-font18 {
+        font-size: 18px;
+    }
+
+    .sm-font20 {
+        font-size: 20px;
+    }
+
+    .sm-font22 {
+        font-size: 22px;
+    }
+
+    .sm-font24 {
+        font-size: 24px;
+    }
+
+    .sm-font26 {
+        font-size: 26px;
+    }
+
+    .sm-font28 {
+        font-size: 28px;
+    }
+
+    .sm-font32 {
+        font-size: 32px;
+    }
+
+    .sm-font30 {
+        font-size: 30px;
+    }
+
+    .sm-font36 {
+        font-size: 36px;
+    }
+
+    .sm-font38 {
+        font-size: 38px;
+    }
+
+    .sm-font48 {
+        font-size: 48px;
+    }
+
+    .sm-font42 {
+        font-size: 42px;
+    }
+
+    .sm-font48 {
+        font-size: 48px;
+    }
+
+    .sm-font50 {
+        font-size: 50px;
+    }
+
+    .sm-font52 {
+        font-size: 52px;
+    }
+
+    .sm-font60 {
+        font-size: 60px;
+    }
+
+    .sm-font80 {
+        font-size: 80px;
+    }
+
+    .sm-font120 {
+        font-size: 120px;
+    }
+
+    .sm-font140 {
+        font-size: 140px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .xs-center {
+        text-align: center;
+    }
+
+    .xs-left {
+        text-align: left;
+    }
+
+    .xs-right {
+        text-align: right;
+    }
+
+    .xs-font12 {
+        font-size: 12px;
+    }
+
+    .xs-font14 {
+        font-size: 14px;
+    }
+
+    .xs-font16 {
+        font-size: 16px;
+    }
+
+    .xs-font18 {
+        font-size: 18px;
+    }
+
+    .xs-font20 {
+        font-size: 20px;
+    }
+
+    .xs-font22 {
+        font-size: 22px;
+    }
+
+    .xs-font24 {
+        font-size: 24px;
+    }
+
+    .xs-font26 {
+        font-size: 26px;
+    }
+
+    .xs-font28 {
+        font-size: 28px;
+    }
+
+    .xs-font32 {
+        font-size: 32px;
+    }
+
+    .xs-font30 {
+        font-size: 30px;
+    }
+
+    .xs-font36 {
+        font-size: 36px;
+    }
+
+    .xs-font38 {
+        font-size: 38px;
+    }
+
+    .xs-font48 {
+        font-size: 48px;
+    }
+
+    .xs-font42 {
+        font-size: 42px;
+    }
+
+    .xs-font48 {
+        font-size: 48px;
+    }
+
+    .xs-font50 {
+        font-size: 50px;
+    }
+
+    .xs-font52 {
+        font-size: 52px;
+    }
+
+    .xs-font60 {
+        font-size: 60px;
+    }
+
+    .xs-font80 {
+        font-size: 80px;
+    }
+
+    .xs-font120 {
+        font-size: 120px;
+    }
+
+    .xs-font140 {
+        font-size: 140px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .xsl-center {
+        text-align: center;
+    }
+
+    .xsl-left {
+        text-align: left;
+    }
+
+    .xsl-right {
+        text-align: right;
+    }
+
+    .xsl-font12 {
+        font-size: 12px;
+    }
+
+    .xsl-font14 {
+        font-size: 14px;
+    }
+
+    .xsl-font16 {
+        font-size: 16px;
+    }
+
+    .xsl-font18 {
+        font-size: 18px;
+    }
+
+    .xsl-font20 {
+        font-size: 20px;
+    }
+
+    .xsl-font22 {
+        font-size: 22px;
+    }
+
+    .xsl-font24 {
+        font-size: 24px;
+    }
+
+    .xsl-font26 {
+        font-size: 26px;
+    }
+
+    .xsl-font28 {
+        font-size: 28px;
+    }
+
+    .xsl-font32 {
+        font-size: 32px;
+    }
+
+    .xsl-font30 {
+        font-size: 30px;
+    }
+
+    .xsl-font36 {
+        font-size: 36px;
+    }
+
+    .xsl-font38 {
+        font-size: 38px;
+    }
+
+    .xsl-font48 {
+        font-size: 48px;
+    }
+
+    .xsl-font42 {
+        font-size: 42px;
+    }
+
+    .xsl-font48 {
+        font-size: 48px;
+    }
+
+    .xsl-font50 {
+        font-size: 50px;
+    }
+
+    .xsl-font52 {
+        font-size: 52px;
+    }
+
+    .xsl-font60 {
+        font-size: 60px;
+    }
+
+    .xsl-font80 {
+        font-size: 80px;
+    }
+
+    .xsl-font120 {
+        font-size: 120px;
+    }
+
+    .xsl-font140 {
+        font-size: 140px;
+    }
+}
+
+/*--------------------
+    WIDTH
+---------------------*/
+.width50 {
+    width: 50px;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width70 {
+    width: 70px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.width90 {
+    width: 90px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.width110 {
+    width: 110px;
+}
+
+.width120 {
+    width: 120px;
+}
+
+.width50p {
+    width: 50%;
+}
+
+.width70p {
+    width: 70%;
+}
+
+.width80p {
+    width: 80%;
+}
+
+.width90p {
+    width: 90%;
+}
+
+.width100p,
+.width100p img {
+    width: 100%;
+}
+
+/*-----------------------
+    DISPLAY
+------------------------*/
+.display-table {
+    display: table;
+}
+
+.display-table-cell {
+    display: table-cell;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+
+.last-p-mb0 p:last-of-type {
+    margin-bottom: 0;
+}
+
+.first-h4-mb0 h4:first-of-type {
+    margin-bottom: 0;
+}
+
+.font300 {
+    font-weight: 300;
+}
+
+.font400 {
+    font-weight: 400;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.font600 {
+    font-weight: 600;
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+.font800 {
+    font-weight: 800;
+}
+
+/*--------------------
+    CONTENT POSITION
+---------------------*/
+.fix {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.absulute {
+    position: absolute;
+}
+
+.v-center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 9;
+}
+
+.h-center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.h-center-reverse {
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.content-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.flex-v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.social-bookmark li {
+    display: inline;
+}
+
+.social-bookmark li a {
+    display: inline-block;
+    margin: 0 2px;
+    text-align: center;
+}
+
+.inline li {
+    display: inline;
+}
+
+.inline-block li {
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* ----------------------------
+    PADDING CSS
+------------------------------ */
+
+.section-padding {
+    padding: 80px 0 50px 0;
+}
+
+.section-padding2 {
+    padding: 100px 0 70px 0;
+}
+
+
+.section-paddingtb120{
+    padding: 120px 0;
+}
+
+
+.section-padding12090{
+    padding: 120px 0 90px 0;
+}
+
+.section-paddingbt100{
+    padding: 100px 0;
+}
+
+
+.section-paddingb120{
+    padding-bottom: 120px;
+}
+
+.section-paddingt120{
+    padding-top: 120px;
+}
+
+
+.padding-top {
+    padding-top: 80px;
+}
+
+.padding-bottom {
+    padding-bottom: 80px;
+}
+.padding-bottom2 {
+    padding-bottom: 100px;
+}
+
+.padding-100-70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+.padding-8080{
+    padding:80px 0;
+}
+
+.padding-100-50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.padding-100-40 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.padding-100-30 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.padding-50-50 {
+    padding: 50px 0;
+}
+
+.padding-150-150 {
+    padding: 150px 0;
+}
+.padding-200-200 {
+    padding: 200px 0;
+}
+
+
+.padding-10-10{
+    padding: 10px 0;
+
+}
+.padding-20-20{
+    padding: 20px 0;
+}
+
+
+/*-----------------*/
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-top-60 {
+    padding-top: 60px;
+}
+
+.padding-top-70 {
+    padding-top: 70px;
+}
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+
+.padding-top-90 {
+    padding-top: 90px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+.padding-bottom-60 {
+    padding-bottom: 60px;
+}
+
+.padding-bottom-70 {
+    padding-bottom: 70px;
+}
+
+.padding-bottom-80 {
+    padding-bottom: 80px;
+}
+
+.padding-bottom-90 {
+    padding-bottom: 90px;
+}
+
+.padding-bottom-100 {
+    padding-bottom: 100px;
+}
+
+/*--------------------
+    PADDING
+---------------------*/
+.padding100 {
+    padding: 100px;
+}
+
+.padding90 {
+    padding: 90px;
+}
+
+.padding80 {
+    padding: 80px;
+}
+
+.padding70 {
+    padding: 70px;
+}
+
+.padding60 {
+    padding: 60px;
+}
+
+.padding50 {
+    padding: 50px;
+}
+
+.padding40 {
+    padding: 40px;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+/* ----------------------------
+    BACKGROUND CSS
+------------------------------- */
+
+
+.bg{
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.yellow__bg{
+    background: #FBBF3F;
+}
+.theme-bg1 {
+    background: #060606;
+}
+
+
+.theme-bg2 {
+    background: #1D1D1C;
+}
+
+
+.theme-bg3 {
+    position: relative;
+    z-index: 2;
+}
+.theme-bg3:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #E8E8E7;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.overlay__2__wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.overlay__2{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay__2:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #060606;
+    opacity: .6;
+}
+
+.overlay__3{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay__3:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #060606;
+    opacity: .8;
+}
+
+
+.theme2__haftopbg{
+    position: relative;
+    z-index: 2;
+}
+
+.theme2__haftopbg:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: #E8E8E7;
+    z-index: -1;
+}
+
+
+.theme2__hafbottombg{
+    position: relative;
+    z-index: 2;
+}
+
+.theme2__hafbottombg:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    background: #E8E8E7;
+    z-index: -1;
+}
+
+
+
+.theme1__haftopbg{
+    position: relative;
+    z-index: 2;
+}
+
+.theme1__haftopbg:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: #1D1D1C;
+    z-index: -1;
+}
+
+
+.theme1__hafbottombg{
+    position: relative;
+    z-index: 2;
+}
+
+.theme1__hafbottombg:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    background: #1D1D1C;
+    z-index: -1;
+}
+
+
+.theme2__balckbg{
+    position: relative;
+    z-index: 2;
+}
+
+
+.theme2__balckbg:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #060606;
+    z-index: -1;
+}
+
+
+.theme2__balcktopbg{
+    position: relative;
+    z-index: 2;
+}
+
+
+.theme2__balcktopbg:after{
+    position: absolute;
+    content: "";
+    height:50%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #060606;
+    z-index: -1;
+}
+
+
+
+
+.theme2__balckbottombg{
+    position: relative;
+    z-index: 2;
+}
+
+
+.theme2__balckbottombg:after{
+    position: absolute;
+    content: "";
+    height:50%;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background: #060606;
+    z-index: -1;
+}
+
+
+
+.theme-bg-onehalf{
+    position: relative;
+    z-index: 2;
+}
+
+
+.theme-bg-onehalf:after{
+    position: absolute;
+   content: "";
+   height: 150%;
+   width: 100%;
+   z-index: -1;
+   left: 0;
+   top: 0;
+   background: #1D1D1C;
+}
+
+.green-bg {
+    background: #f6fafb;
+}
+
+.white-green-bg {
+    background: #eaf6fa;
+}
+
+.gray-bg {
+    background: #f5f4f4;
+}
+.color_orange{
+    color: #ff5621;
+}
+.color_help{
+    color: #ff658d;
+}
+.color_water{
+    color: #2095f3;
+}
+.color_users i{
+    color: #ff5621;
+}
+.color_global i{
+    color: #2095f3;
+}
+.color_cup i{
+    color: #ff658d;
+}
+.color_plan i{
+    color: #9465ff;
+}
+
+.case_text_bg1{
+    background: #ffa665 !important;
+}
+.case_text_bg2{
+    background: #9465ff !important;
+}
+
+.case_text_bg3{
+    background: #ff658d !important;
+}
+
+
+.white_bg{
+    position: relative;z-index: 2;
+}
+
+.white_bg:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: .95;
+}
+
+.w3bg{
+    position: relative;z-index: 2;
+}
+
+.w3bg:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #00b268;
+    opacity: .9;
+}
+
+.yellow-bg{
+    background-color: #FFB400;
+}
+.white-bg{
+    background-color: white;
+}
+.light-gray-bg {
+    background-color: #f7f7f7;
+}
+
+.deep-gray-bg {
+    background-color: #f2f0ff;
+}
+
+.sky-gray-bg {
+    background: #f7f9fc;
+}
+
+.soft-gray-bg {
+    background: #f8f8ff;
+}
+
+.dark-bg {
+    background: rgba(0, 0, 0, .85);
+    color: #ffffff;
+}
+
+.alt-dark-bg {
+    background: #0a0c19;
+    color: #ffffff;
+}
+
+.deep-dark-bg {
+    background: rgba(0, 0, 0, .9);
+    color: #ffffff;
+}
+
+.alt-deep-dark-bg {
+    background: #050713;
+    color: #ffffff;
+}
+
+.sky_color{
+    color: #2095f3;
+}
+
+
+.no-bg {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+
+.white-bg{
+    background: #fff;
+}
+
+
+.bgaf{
+    background-attachment: fixed;
+}
+
+
+
+/*-----------------------
+    COLOR CSS
+------------------------*/
+.black,
+.black a,
+.black h1,
+.black h2,
+.black h3,
+.black h4,
+.black h5,
+.black h6,
+.black small,
+.red,
+.red a,
+.red h1,
+.red h2,
+.red h3,
+.red h4,
+.red h5,
+.red h6,
+.red small,
+.white,
+.white a,
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white small {
+    color: #ffffff;
+} 
+
+
+
+/* ----------------------------
+    BORDER CSS
+------------------------------ */
+
+.section__border {
+    border-top: 1px solid #343433;
+}
+
+
+.border-left {
+    border-left: 1px solid #dddddd;
+}
+
+.border-right {
+    border-right: 1px solid #dddddd;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dddddd;
+}
+
+.border-top {
+    border-top: 1px solid #dddddd;
+}
+
+.border-righ-bottom {
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.border_black_1px{
+    border: 1px solid #222; 
+}
+.border_black_2px{
+    border: 2px solid #222; 
+}.border_black_3px{
+    border: 3px solid #222; 
+}
+
+@media only screen and (max-width: 767px) {
+    .border-xs {
+        border: 1px solid #dddddd;
+    }
+}
+
+.border-radious5 {
+    border-radius: 5px;
+}
+
+.border-radious10 {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.border-radious20 {
+    border-radius: 20px;
+}
+
+.border-radious50 {
+    border-radius: 50px;
+}
+
+.border-_5px_white{
+    border: .5px solid #fff;
+}
+
+.border-radius1010{
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+/* ----------------------------
+    FORM & INPUT CSS
+------------------------------ */
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    outline: 0;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+    outline: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    outline: 0;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+    outline: 0;
+}
+
+select {
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+}
+
+embed,
+iframe,
+object {
+    width: 100%;
+}
+
+
+
+/*==============
+COMMON CSS
+=================*/
+
+.bg{
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+}
+
+
+/*==============
+SPACE CSS
+=================*/
+
+.space-100 {
+    height: 100px;
+}
+
+.space-50 {
+    height: 50px;
+}
+
+.space-80 {
+    height: 80px;
+}
+
+.space-40 {
+    height: 40px;
+}
+
+.space-60 {
+    height: 60px;
+}
+.space-70 {
+    height: 70px;
+}
+
+.space-30 {
+    height: 30px;
+}
+
+.space-20 {
+    height: 20px;
+}
+
+.space-10 {
+    height: 10px;
+}
