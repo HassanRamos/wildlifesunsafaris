@@ -23,6 +23,39 @@
     <link rel="stylesheet" href="assets/css/inner.css">
     <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+     <!-- Custom Styles -->
+    <style>
+        .select2-container--default .select2-selection--single {
+            height: 38px;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height: 24px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            height: 36px;
+            right: 6px;
+        }
+        .select2-container--default .select2-selection--multiple {
+            min-height: 38px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+            padding: 0 8px;
+        }
+        /* Change background color of Select2 dropdown options */
+        .select2-results__option {
+            background-color: white;
+            color: black;
+        }
+    </style>
+
 
 </head><!--HEAD END-->
 <body><!--BODY START-->
@@ -52,7 +85,7 @@
                 <div class="heading3">
                     <h2>Contact Us</h2>
                 </div>
-                <form action="#">
+                <form action="contact.html">
                     <input type="text" placeholder="Full Name">
                     <input type="email" placeholder="Email Address">
                     <textarea name="messege" id="messege" cols="30" placeholder="Your Messege" rows="3"></textarea>
@@ -90,9 +123,9 @@
                                     <li><a href="#">National Parks</a></li>
                                     <li><a href="about.html">About Us</a>
                                         <ul>
-                                            <li><a href="about.html">Why Choose Us</a></li>
+                                            <li><a href="why-choose-us.html">Why Choose Us</a></li>
                                             
-                                            <li><a href="about.html">Safari  Tips</a></li>
+                                            <!-- <li><a href="about.html">Safari  Tips</a></li> -->
                                         </ul>
 
                                     </li>
@@ -126,8 +159,8 @@
                         </div>
                         <div class="space-50"></div>
                         <div class="btn__group">
-                            <a href="#" class="cbtn cbtn21" style="background-color: #3FECFB;">ABOUT US</a>
-                            <a href="#" class="cbtn cbtn21" style="background-color: #3FECFB;">SAFARIS & TOURS</a>
+                            <a href="about.html" class="cbtn cbtn21" style="background-color: #3FECFB;">ABOUT US</a>
+                            <a href="10days-kenya-safari.html" class="cbtn cbtn21" style="background-color: #3FECFB;">SAFARIS & TOURS</a>
                         </div>
                     </div>
                 </div>
@@ -251,7 +284,7 @@
                         </div>
                         <div class="col-sm-6 align-self-center wow fadeInRight" style="margin-top: 30px;">
                             <div class="heading__rbtn" >
-                                <a href="#" class="cbtn cbtn1" style="background-color: #3FECFB;">See More Here</a>
+                                <a href="10days-kenya-safari.html" class="cbtn cbtn1" style="background-color: #3FECFB;">See More Here</a>
                             </div>
                         </div>
                     </div>
@@ -352,53 +385,15 @@
         <div class="testimonial__area padding-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 m-auto wow fadeInDown">
-                        <div class="heading__area">
-                            <div class="heading">
-                                <h2>Our Client <br> Say </h2>
-                            </div>
+                    <div class="col-lg-7 align-self-center">
+                        <div class="inner__heading">
+                            <h1 ><a href="https://www.tripadvisor.com/Attraction_Review-g294210-d1763096-Reviews-Wildlife_Sun_Safaris-Mombasa_Coast_Province.html" target="_blank" style="color:#3FECFB;"> Check Out Our Reviews </a></h1>
+                            
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-10 m-auto wow fadeInUp">
-                        <div class="testimonials owl-carousel">
-                            <div class="single__testimonial">
-                                <div class="testimonial__icon">
-                                    <img src="assets/img/icon/quote.png" alt="">
-                                </div>
-                                <div class="testimonial__text">
-                                    <p>We’ve partnered with Iconfinder from Dec 10-Dec 14 to give away free sets of cheerful, fun holiday icon sets that you can use for your projects and more. In addition, we’ve partnered with the animation experts to show you some fun tips and tricks on animating icons too. This is a week you don’t want to miss out on!</p>
-                                </div>
-                                <div class="testimonial__author">
-                                    <h6>Subash Chandra</h6>
-                                    <p>Product Designer at service digital</p>
-                                </div>
-                            </div>
-                            <div class="single__testimonial">
-                                <div class="testimonial__icon">
-                                    <img src="assets/img/icon/quote.png" alt="">
-                                </div>
-                                <div class="testimonial__text">
-                                    <p>We’ve partnered with Iconfinder from Dec 10-Dec 14 to give away free sets of cheerful, fun holiday icon sets that you can use for your projects and more. In addition, we’ve partnered with the animation experts to show you some fun tips and tricks on animating icons too. This is a week you don’t want to miss out on!</p>
-                                </div>
-                                <div class="testimonial__author">
-                                    <h6>Subash Chandra</h6>
-                                    <p>Product Designer at service digital</p>
-                                </div>
-                            </div>
-                            <div class="single__testimonial">
-                                <div class="testimonial__icon">
-                                    <img src="assets/img/icon/quote.png" alt="">
-                                </div>
-                                <div class="testimonial__text">
-                                    <p>We’ve partnered with Iconfinder from Dec 10-Dec 14 to give away free sets of cheerful, fun holiday icon sets that you can use for your projects and more. In addition, we’ve partnered with the animation experts to show you some fun tips and tricks on animating icons too. This is a week you don’t want to miss out on!</p>
-                                </div>
-                                <div class="testimonial__author">
-                                    <h6>Subash Chandra</h6>
-                                    <p>Product Designer at service digital</p>
-                                </div>
-                            </div>
+                    <div class="col-lg-5 align-self-center text-right">
+                        <div class="inner__scrollr">
+                            <a href="https://www.tripadvisor.com/Attraction_Review-g294210-d1763096-Reviews-Wildlife_Sun_Safaris-Mombasa_Coast_Province.html" target="_blank"><img src="assets/img/review.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -406,121 +401,49 @@
         </div>
         <!--::::: TESTIMONIAL AREA END :::::::-->
 
-        <!--::::: BLOG AREA START :::::::-->
+        <!--::::: Partners AREA START :::::::-->
         <div class="blog-area section-padding theme-bg2">
-            <div class="container">
-                <div class="heading__area">
-                    <div class="row">
-                        <div class="col-sm-6 align-self-center wow fadeInLeft">
-                            <div class="heading">
-                                <h2>Our Special <br> Article </h2>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 align-self-center wow fadeInRight">
-                            <div class="heading__rbtn">
-                                <a href="#" class="cbtn cbtn1">Show All</a>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="row justify-content-center">
+                <h2>Our Corporate Partners</h2>
+        </div>
+        <div class="space-40"></div>
+        <div class="row justify-content-center">
+            
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1s">
+                <div class="single__blog">
+                    <div class="blog__img">
+                        <img src="assets/img/trip1.png" alt="" style="height: 200px; width: 100%; object-fit: cover;">
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1s">
-                        <div class="single__blog">
-                            <div class="blog__img">
-                                <img src="assets/img/blog/blog_1.jpg" alt="">
-                                <p>DECEMBER 6, 2019</p>
-                            </div>
-                            <div class="blog__text">
-                                <h6>INTERIOR DESIGN</h6>
-                                <h3><a href="#">Optimize Your Marketing</a></h3>
-                                <p>Our long history of family ownership has provided financial reassurance, business continuity and stability.</p>
-
-                                <div class="blog__buttons">
-                                    <a href="#" class="readmore__btn">learn More</a>
-                                    <a href="#" class="share_btn text-right"><i class="far fa-share-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1.1s">
+                <div class="single__blog">
+                    <div class="blog__img">
+                        <img src="assets/img/trip2.png" alt="" style="height: 200px; width: 100%; ">
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.1s">
-                        <div class="single__blog">
-                            <div class="blog__img">
-                                <img src="assets/img/blog/blog_2.jpg" alt="">
-                            </div>
-                            <div class="blog__text">
-                                <h6>INTERIOR DESIGN</h6>
-                                <h3><a href="#">Leads and the New Year</a></h3>
-                                <p>Our long history of family ownership has provided financial reassurance, business continuity.</p>
-
-                                <div class="blog__buttons">
-                                    <a href="#" class="readmore__btn">learn More</a>
-                                    <a href="#" class="share_btn text-right"><i class="far fa-share-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="single__blog">
+                    <div class="blog__img">
+                        <img src="assets/img/trip3.png" alt="" style="height: 200px; width: 100%; object-fit: cover;">
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="single__blog">
-                            <div class="blog__img">
-                                <img src="assets/img/blog/blog_3.jpg" alt="">
-                            </div>
-                            <div class="blog__text">
-                                <h6>INTERIOR DESIGN</h6>
-                                <h3><a href="#">Boost Leads and Your</a></h3>
-                                <p>Our long history of family ownership has provided financial reassurance, business continuity and stability.</p>
-
-                                <div class="blog__buttons">
-                                    <a href="#" class="readmore__btn">learn More</a>
-                                    <a href="#" class="share_btn text-right"><i class="far fa-share-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="single__blog">
+                    <div class="blog__img">
+                        <img src="assets/img/trip4.jpeg" alt="" style="height: 200px; width: 100%; object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
-        <!--::::: BLOG AREA END :::::::-->
-        <!--::::: WORK AREA START :::::::-->
-        <div class="work__area section-padding theme-bg2">
-            <div class="container" >
-               
-                <div class="row" style="background-color:#fff;">
-                    <div class="col-lg-3 col-sm-6 ">
-                        <div class="single__work">
-                            <div class="single__work__text">
-                                <img src="assets/img/trip1.png" alt="">
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 ">
-                        <div class="single__work">
-                            <div class="single__work__text">
-                                <img src="assets/img/trip2.png" alt="">
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 ">
-                        <div class="single__work">
-                            <div class="single__work__text">
-                                <img src="assets/img/trip3.png" alt="">
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single__work">
-                            
-                            <div class="single__work__text">
-                                <img src="assets/img/trip4.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--::::: WORK AREA END :::::::-->
+    </div>
+</div>
+
+        <!--::::: Partners AREA END :::::::-->
+        
         <!--::::: CONTACT AREA START :::::::-->
         <div class="blog-area section-padding theme-bg2">
     <div class="contact__area"  >
@@ -530,59 +453,97 @@
                     <div class="col-lg-12  wow fadeInLeft" style="width: 100%;">
                         <div class="contact__form border-radius1010" style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
                             <div class="heading3">
-                                <h2>Contact us for any kind of <br> help at any time</h2>
+                                <h2>Book Your Safaris & Tours Here </h2>
                             </div>
                             <form action="#" style="width: 100%;">
-                                <!-- First Name and Last Name in the same row -->
-                                <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                                    <input type="text" placeholder="First Name" style="width: 48%;">
-                                    <input type="text" placeholder="Last Name" style="width: 48%;">
+                            <!-- First Name and Last Name in the same row -->
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                                <div style="width: 48%;">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" placeholder="First Name" style="width: 100%;">
                                 </div>
-                                
-                                <!-- Email -->
-                                <input type="email" placeholder="Email Address" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- Phone number with country flag select -->
-                                <div style="display: flex; margin-bottom: 10px;">
-                                    <select name="countryCode" style="width: 20%;">
-                                        <option value="+1">🇺🇸 +1</option>
-                                        <option value="+44">🇬🇧 +44</option>
-                                        <option value="+91">🇮🇳 +91</option>
-                                        <!-- Add other country codes as needed -->
+                                <div style="width: 48%;">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" placeholder="Last Name" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="Email Address" style="width: 100%;">
+                            </div>
+
+                            <!-- Phone number with country flag select -->
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width: 20%;">
+                                    <label for="countryCode">Country Code</label>
+                                     <select name="countryCode" id="countryCode" style="width: 100%;">
+                                            <!-- Options will be populated by JavaScript -->
                                     </select>
-                                    <input type="number" placeholder="Phone Number" style="width: 78%; margin-left: 2%;">
                                 </div>
-                                
-                                <!-- File input for Let Us Know Where You Come From -->
-                                <input type="text" name="location" style="margin-bottom: 10px;">
-                                
-                                <!-- Address and Started fields in the same row -->
-                                <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                                    <input type="text" placeholder="Address" style="width: 48%;">
-                                    <input type="text" placeholder="Started" style="width: 48%;">
+                                <div style="width: 78%; margin-left: 2%;">
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input type="number" id="phoneNumber" placeholder="Phone Number" style="width: 100%;">
                                 </div>
-                                
-                                <!-- County -->
-                                <input type="text" placeholder="County" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- Start Date Calendar -->
-                                <input type="date" placeholder="Start Date" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- End Date Calendar -->
-                                <input type="date" placeholder="End Date" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- Number of Adults -->
-                                <input type="number" placeholder="Number of Adults" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- Number of Children -->
-                                <input type="number" placeholder="Number of Children" style="margin-bottom: 10px; width: 100%;">
-                                
-                                <!-- Message box -->
-                                <textarea name="message" id="message" cols="30" placeholder="Message" rows="3" style="margin-bottom: 10px; width: 100%;"></textarea>
-                                
-                                <!-- Submit button -->
-                                <button type="submit" class="quote__btn" style="width: 100%;">Submit</button>
-                            </form>
+                            </div>
+
+                            <!-- Location -->
+                             <div style="margin-bottom: 10px; width: 100%;">
+                            <label for="country">Country</label>
+                            <select id="country" name="country" style="width: 100%;">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+
+                            <!-- Address and State / Province / Region fields in the same row -->
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                                <div style="width: 48%;">
+                                    <label for="address">Address</label>
+                                    <input type="text" id="address" placeholder="Address" style="width: 100%;">
+                                </div>
+                                <div style="width: 48%;">
+                                    <label for="started">State / Province / Region</label>
+                                    <input type="text" id="state" placeholder="State / Province / Region" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            
+
+                            <!-- Start Date Calendar -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="startDate">Start Date</label>
+                                <input type="date" id="startDate" placeholder="Start Date" style="width: 100%;">
+                            </div>
+
+                            <!-- End Date Calendar -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="endDate">End Date</label>
+                                <input type="date" id="endDate" placeholder="End Date" style="width: 100%;">
+                            </div>
+
+                            <!-- Number of Adults -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="adults">Number of Adults</label>
+                                <input type="number" id="adults" placeholder="Number of Adults" style="width: 100%;">
+                            </div>
+
+                            <!-- Number of Children -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="children">Number of Children</label>
+                                <input type="number" id="children" placeholder="Number of Children" style="width: 100%;">
+                            </div>
+
+                            <!-- Message box -->
+                            <div style="margin-bottom: 10px; width: 100%;">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" placeholder="Message" rows="3" style="width: 100%;"></textarea>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="quote__btn" style="width: 100%;">Submit</button>
+                        </form>
+
                         </div>
                     </div>
                 </div>
@@ -686,9 +647,12 @@
                     </div>
                 </div>
             </div>
-            <div class="footer__chat__option" >
-                <a href="https://wa.me/254727631338?text=Hello!%20I'm%20from%20wildlife%20sun%20website" target="_blank"><i class="fal fa-comment-alt-dots"></i></a>
-            </div>
+         <div class="footer__chat__option">
+            <a href="https://wa.me/254727631338?text=Hello!%20I'm%20from%20wildlife%20sun%20website" target="_blank">
+                <img src="assets/img/what.png" alt="WhatsApp Icon">
+            </a>
+        </div>
+
             <img src="assets/img/bg/footer__map.png" alt="" class="footer__map">
         </div>
         <div class="footer__bottom">
@@ -727,7 +691,56 @@
         });
     });
 </script>
+    <!-- Include Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- Custom JavaScript to populate and initialize Select2 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const countrySelect = document.getElementById('country');
+            const countryCodeSelect = document.getElementById('countryCode');
+            
+            fetch('https://restcountries.com/v3.1/all')
+                .then(response => response.json())
+                .then(data => {
+                    const knownCountryCodes = new Set();
+                    
+                    data.forEach(country => {
+                        const flagEmoji = country.flag;
 
+                        // Populate country dropdown
+                        const countryOption = document.createElement('option');
+                        countryOption.value = country.name.common;
+                        countryOption.textContent = `${flagEmoji} ${country.name.common}`;
+                        countrySelect.appendChild(countryOption);
+
+                        // Populate country code dropdown if the country has a calling code
+                        if (country.idd && country.idd.root && country.idd.suffixes) {
+                            country.idd.suffixes.forEach(suffix => {
+                                const fullCode = `${country.idd.root}${suffix}`;
+                                if (!knownCountryCodes.has(fullCode)) {
+                                    knownCountryCodes.add(fullCode);
+                                    const countryCodeOption = document.createElement('option');
+                                    countryCodeOption.value = fullCode;
+                                    countryCodeOption.textContent = `${flagEmoji} ${fullCode}`;
+                                    countryCodeSelect.appendChild(countryCodeOption);
+                                }
+                            });
+                        }
+                    });
+
+                    // Initialize Select2 on the dropdowns
+                    $('#country').select2({
+                        placeholder: "Select a country",
+                        allowClear: true
+                    });
+                    $('#countryCode').select2({
+                        placeholder: "Select a country code",
+                        allowClear: true
+                    });
+                })
+                .catch(error => console.error('Error fetching country data:', error));
+        });
+    </script>
 </body><!--BODY END-->
 
 </html><!--HTML END-->
