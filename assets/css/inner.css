@@ -526,7 +526,7 @@ a.servie__play__icon {
 
 .search__box input {
     background: none;
-    border: none;
+    border: black;
     padding-left: 40px;
     color:#fff;
 }
