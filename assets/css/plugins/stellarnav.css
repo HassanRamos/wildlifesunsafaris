@@ -53,7 +53,7 @@
 
 .stellarnav li a:hover, 
 .stellarnav li.current a{
-    color: #FBBF3F;
+    color: #008000	
 }
 
 
@@ -96,7 +96,7 @@
     left: -100%;
     font-family: 'Font Awesome 5 Pro';
     transition: all .3s;
-    color: #FBBF3F;
+    color: #008000	
 }
 .stellarnav li li:hover:after{
     left: 5px;

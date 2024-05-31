@@ -78,7 +78,7 @@ HEADER AREA CSS
     content: "";
     height: 4px;
     width: 4px;
-    background: #3FECFB;
+    background: #0070c0;
     bottom: 0;
     left: 15%;
     margin-left: -1.5px;
@@ -92,7 +92,7 @@ HEADER AREA CSS
     content: "";
     height: 4px;
     width: 4px;
-    background: #3FECFB;
+    background: #0070c0;
     bottom: 0;
     right: 15%;
     margin-right: -1.5px;
@@ -248,7 +248,7 @@ img.welcome2__hero__img {
 
 .welcome__text h6 {
     font-size: 12px;
-    color: #3FECFB;
+    color: #0070c0;
     background: #131313;
     display: inline-block;
     padding: 5px 20px;
@@ -295,7 +295,7 @@ img.welcome2__hero__img {
 }
 
 .welcome__social li a:hover {
-    background: #3FECFB;
+    background: #0070c0;
     color: #fff;
 }
 
@@ -327,11 +327,11 @@ img.welcome2__hero__img {
     margin-right: 5px;
 }
 .welcome__slider__card h6 {
-    color: #3FECFB;
+    color: #0070c0;
     margin-bottom: 6px;
 }
 .welcome__slider__img .owl-dots>div.active {
-    background: #3FECFB;
+    background: #0070c0;
     height: 10px;
     width: 10px;
     margin-bottom: -2.5px;
@@ -373,8 +373,8 @@ img.welcome2__hero__img {
 }
 
 .welcome__social2 li a:hover {
-    background: #3FECFB;
-    border-color: #3FECFB;
+    background: #0070c0;
+    border-color: #0070c0;
 }
 
 
@@ -396,7 +396,7 @@ ABOUT AREA CSS
     content: "";
     height: 2px;
     width: 100px;
-    background: #3FECFB;
+    background: #0070c0;
     bottom: 0;
 }
 
@@ -422,7 +422,7 @@ ABOUT AREA CSS
     content: "";
     height: 2px;
     width: 100px;
-    background: #3FECFB;
+    background: #0070c0;
     bottom: 0;
 }
 
@@ -505,7 +505,7 @@ SERVICE AREA CSS
 
 .single__service:hover .service__text h3 a,
 .single__service:hover .service__text h3 {
-    color: #3FECFB;
+    color: #0070c0;
 }
 
 .service__text {
@@ -588,7 +588,7 @@ COUNTER AREA CSS
 .counter__wrap {
     border-radius: 10px;
     overflow: hidden;
-    background: #3FECFB;
+    background: #0070c0;
 }
 .counter__padding {
     padding: 40px 40px 40px 55px !important;
@@ -766,7 +766,7 @@ BLOG AREA CSS
 }
 
 .blog__text h6 {
-    color: #3FECFB;
+    color: #0070c0;
     font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 2px;
@@ -784,7 +784,7 @@ BLOG AREA CSS
     top: 15px;
     left: 0;
     font-size: 12px;
-    background: #3FECFB;
+    background: #0070c0;
     color: #060606;
     padding: 5px 30px;
     font-weight: 600;
@@ -815,7 +815,7 @@ WORK AREA CSS
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    background: #3FECFB;
+    background: #0070c0;
     height: 100px;
     line-height: 100px;
     border-radius: 50%;
@@ -843,7 +843,7 @@ WORK AREA CSS
     content: "";
     height: 5px;
     width: 5px;
-    background: #3FECFB;
+    background: #0070c0;
     top: 50%;
     margin-top: -3px;
     -webkit-transition: all .5s;
@@ -972,7 +972,7 @@ WORK AREA CSS
 }
 
 .feature2__wrap {
-    background: #3FECFB;
+    background: #0070c0;
     border-radius: 10px !important;
     margin-bottom: 30px
 }
@@ -1025,8 +1025,8 @@ CLIENT AREA CSS
 }
 
 .client__area .owl-nav>div:hover {
-    background: #3FECFB;
-    border-color: #3FECFB;
+    background: #0070c0;
+    border-color: #0070c0;
     color: #060606;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -1125,7 +1125,7 @@ CONTACT AREA CSS
     content: "";
     height: 2px;
     width: 100px;
-    background: #3FECFB;
+    background: #0070c0;
     bottom: 0;
 }
 
@@ -1253,7 +1253,7 @@ TESTIMONIAL AREA CSS
 
 .testimonial__author {
     padding-left: 20px;
-    border-left: 2px solid #3FECFB;
+    border-left: 2px solid #0070c0;
 }
 
 .testimonials .owl-nav {
@@ -1279,8 +1279,8 @@ TESTIMONIAL AREA CSS
 }
 
 .testimonials .owl-nav > div:hover {
-    background: #3FECFB;
-    border-color: #3FECFB;
+    background: #0070c0;
+    border-color: #0070c0;
     color: #060606;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -1345,7 +1345,7 @@ FOOTER AREA CSS
 }
 
 .single__footer__menu li a:hover {
-    color: #3FECFB;
+    color: #0070c0;
     padding-left: 2px;
 }
 
@@ -1354,7 +1354,7 @@ FOOTER AREA CSS
 }
 
 .footer__contact a {
-    color: #3FECFB;
+    color: #0070c0;
 }
 
 .footer__chat__option {
@@ -1365,7 +1365,7 @@ FOOTER AREA CSS
     width: 50px;
     text-align: center;
     line-height: 50px;
-    background: #3FECFB;
+    background: #0070c0;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;

@@ -66,8 +66,8 @@ img.about__page {
     border-radius: 50%;
 }
 .about__social li a:hover{
-    background: #FBBF3F;
-    border-color:#FBBF3F;
+    background: #008000	
+    border-color:#008000	
 }
 li.abou__social__heading {
     font-size: 15px;
@@ -79,7 +79,7 @@ li.abou__social__heading {
 
 .about__details__single__counter {
     padding-left: 30px;
-    border-left: 2px solid #FBBF3F;
+    border-left: 2px solid #008000	
     margin-bottom: 20px;
 }
 
@@ -161,7 +161,7 @@ a.team__link {
     top: 50%;
     height: 50px;
     width: 50px;
-    background: #FBBF3F;
+    background: #008000	
     line-height: 50px;
     font-size: 22px;
     color: #3e425c;
@@ -270,7 +270,7 @@ a.team__link {
     position: absolute;
     left: 0;
     top: 0;
-    color: #FBBF3F;
+    color: #008000	
     font-size: 19px;
 }
 
@@ -330,7 +330,7 @@ a.team__link {
     content: "";
     height: 6px;
     width: 6px;
-    background: #FBBF3F;
+    background: #008000	
     left: 0;
     top: 50%;
     margin-top: -3px;
@@ -343,7 +343,7 @@ a.team__link {
 }
 
 .service__list li span {
-    color: #FBBF3F;
+    color: #008000	
 }
 
 .service__video {
@@ -442,7 +442,7 @@ a.servie__play__icon {
 }
 
 .portfolio__table td span {
-    color: #FBBF3F;
+    color: #008000	
     padding-right: 7px;
 }
 
@@ -474,7 +474,7 @@ a.servie__play__icon {
 }
 
 .portfolio__text p {
-    color: #FBBF3F;
+    color: #008000	
     font-weight: 500;
     font-size: 15px;
 }
@@ -500,7 +500,7 @@ a.servie__play__icon {
     display: inline-block;
     height: 50px;
     width: 50px;
-    background: #FBBF3F;
+    background: #008000	
     line-height: 50px;
     font-size: 22px;
     color: #3e425c;
@@ -558,7 +558,7 @@ a.servie__play__icon {
 
 .article__date p {
     display: inline-block;
-    background: #FBBF3F;
+    background: #008000	
     padding: 5px 15px;
     border-radius: 0px 30px 30px 0;
     margin-bottom: 13px;
@@ -570,7 +570,7 @@ a.servie__play__icon {
 
 .article__categories p {
     display: inline-block;
-    color: #FBBF3F;
+    color: #008000	
     font-size: 12px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -586,7 +586,7 @@ a.servie__play__icon {
 .sidebar__line:after {
     position: absolute;
     content: "";
-    background: #FBBF3F;
+    background: #008000	
     height: 1px;
     width: 10%;
     left: 0;
@@ -608,7 +608,7 @@ a.servie__play__icon {
 }
 
 .article__buttons a.share_btn:hover {
-    background: #FBBF3F;
+    background: #008000	
     color: #fff;
 }
 
@@ -635,7 +635,7 @@ ul.caregories li:after {
     content: "";
     height: 6px;
     width: 6px;
-    background: #FBBF3F;
+    background: #008000	
     left: 0;
     top: 50%;
     margin-top: -3px;
@@ -684,7 +684,7 @@ ul.caregories li:after {
     content: "";
     height: 6px;
     width: 6px;
-    background: #FBBF3F;
+    background: #008000	
     top: 6px;
     left: 6px;
 }
@@ -766,7 +766,7 @@ ul.caregories li:after {
 
 .comment__text h4 a {
     float: right;
-    color: #FBBF3F;
+    color: #008000	
 }
 
 .cpagination a {
@@ -781,7 +781,7 @@ ul.caregories li:after {
 }
 
 .cpagination a:hover {
-    background: #FBBF3F;
+    background: #008000	
     color: #060606;
 }
 
